@@ -1,7 +1,7 @@
 /* Set the body padding-top when above 980px to push the content down from
    below the navbar, which is fixed at >980px screen widths. */
-body * {
-    background-color: #ddd;
+body {
+    background-color: #ddd !important;
 }
 
 pre {

@@ -1,5 +1,9 @@
 /* Set the body padding-top when above 980px to push the content down from
    below the navbar, which is fixed at >980px screen widths. */
+body {
+    background-color: #ddd;
+}
+
 pre {
   font-size: 12px;
 }
@@ -181,7 +185,7 @@ body{
 }
 
 .navbar .navbar-inner .nav li, .navbar .navbar-inner .nav li a, .navbar .navbar-inner .brand{
-  color: white; 
+  color: white;
 }
 
 .nav-list > .active > a, .navbar .navbar-inner .nav li a:hover {
@@ -190,7 +194,7 @@ body{
 }
 
 .navbar .navbar-inner .dropdown-menu li a, .navbar .navbar-inner .dropdown-menu li{
- color: #A30000; 
+ color: #A30000;
 }
 .navbar .navbar-inner .dropdown-menu li a:hover{
   background: #eeeeee;

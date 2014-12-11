@@ -158,7 +158,7 @@ a.fusion-poweredby {
     <!-- Custom google search -->
     <script>
       (function() {
-        var cx = '015016005043623903336:rxraeohqk6w';
+        var cx = '003794430694023614563:gibpisrhci0';
         var gcse = document.createElement('script');
         gcse.type = 'text/javascript';
         gcse.async = true;
@@ -207,7 +207,7 @@ a.fusion-poweredby {
 <li><a href="#drf-nested-routers">DRF Nested Routers</a></li>
 
               <div class="promo">
-              
+
               </div>
 </ul>
 
@@ -511,7 +511,7 @@ class Note(models.Model):
     def to_native(self, value):
         """
         Serialize tagged objects to a simple textual representation.
-        """                            
+        """
         if isinstance(value, Bookmark):
             return 'Bookmark: ' + value.url
         elif isinstance(value, Note):
@@ -523,7 +523,7 @@ class Note(models.Model):
         """
         Serialize bookmark instances using a bookmark serializer,
         and note instances using a note serializer.
-        """                            
+        """
         if isinstance(value, Bookmark):
             serializer = BookmarkSerializer(value)
         elif isinstance(value, Note):
